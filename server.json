@@ -3,5 +3,17 @@
   "name": "io.github.LAHutchins91/status",
   "title": "Status",
   "description": "Approved incident states and customer-facing wording for AI assistants, over MCP.",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://status-mcp.vercel.app/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/LAHutchins91/status-mcp/main/logo.jpg",
+      "mimeType": "image/jpeg"
+    }
+  ]
 }
